@@ -13,7 +13,7 @@ engine = pyttsx3.init()
 
 MASTER = "bilal"
 
-client = wolframalpha.Client('6TA82H-E45JRVYE38')
+client = wolframalpha.Client('Your api key here')
 
 def speak(audio):
     engine.say(audio)
