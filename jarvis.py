@@ -59,7 +59,7 @@ def wishme():
     speak(poi)
     speak("How can i help you?")
 
-#wishme()
+wishme()
 
 def takeCommand():
     r = sr.Recognizer()
@@ -125,7 +125,7 @@ if __name__ == '__main__':
             reply = random.choice(rep)
             speak(reply)
 
-        elif 'how are you' in query() or 'are you all right' in query:
+        elif 'how are you' in query or 'are you all right' in query:
             repy = ['i am fine','i am alright']
             replya = random.choice(repy)
             speak(replya)
